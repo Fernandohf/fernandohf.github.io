@@ -12,7 +12,7 @@ Briefly, these are the steps needed:
 1. Warming Up!
 2. Getting the Data
 
-![_config.yml]({{ site.baseurl }}/images/ "Source: https://unsplash.com/photos/yA3e4U6UgOw")
+![_config.yml]({{ site.baseurl }}/images/estimada_morada_part1.jpg "Source: https://unsplash.com/photos/yA3e4U6UgOw")
 
 ## Warming Up
 
