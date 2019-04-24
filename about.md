@@ -4,12 +4,11 @@ title: About
 permalink: /about/
 ---
 
-Some information about you!
+Hello! My name is Fernando Henrique and I am passionate about science and all the incredible ways it can change the world
 
-### More Information
 
-A place to include any other types of information that you'd like to include about yourself.
+**Data Scientist and Pythonist :heart:.**
 
 ### Contact me
 
-[email@domain.com](mailto:email@domain.com)
+[nandohfernandes@gmail.com](mailto:nandohfernandes@gmail.com)
