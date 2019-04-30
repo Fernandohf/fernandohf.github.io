@@ -3,7 +3,7 @@ layout: post
 title: End-to-End Machine Learning Model - Part 1
 ---
 
-This is the first post of a series to describe all details present in the creation of a ML model to estimate real estate prices. The posts are in a tutorial format, and each one will focus in a specific step.
+Overview of the model creation process and This is the first post of a series to describe all details present in the creation of a ML model to estimate real estate prices. The posts are in a tutorial format, and each one will focus in a specific step.
 
 ## Summary
 
@@ -14,12 +14,13 @@ List of posts:
 
 ## Warming Up
 
-![_config.yml]({{ site.baseurl }}/images/estimada_morada_part1.jpg "Source: <https://unsplash.com/photos/yA3e4U6UgOw>")
+![_config.yml]({{ site.baseurl }}/images/01.part1/estimada_morada_part1.jpg "Source: <https://unsplash.com/photos/yA3e4U6UgOw>")
 
-Before we start to get our hands dirty, let's first define some basic concepts and prepare  the environment.
+Before we start to get our hands dirty, let's first define some basic concepts involved in the creation of a Machine Learning Model.
 
-### Basic Concepts
+### Step by Step
 
+This series of articles will focus on a
 - **Machine Learning**: It is a collection of techniques that can be used to make sense of the data.
 - **Models**: In machine learning, a model is a set of rules that represent what a system has learned from data.
 
