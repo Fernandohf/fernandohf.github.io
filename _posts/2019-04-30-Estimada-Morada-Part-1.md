@@ -41,7 +41,7 @@ It is clear that we have a **Regression Problem**. It is a kind of **Supervised 
 
 ![_config.yml]({{ site.baseurl }}/images/01.part1/task.png "Source: <https://undraw.co>")
 
-Now that we know the kind of problem addressed by our model and what is exactly its output, we need to know how the model will learn this task. In a supervised learning problem, **labeled Data** is provided to the model to perform the prediction **task**. Hence, the model needs to map the inputs features to a target variable in a way that minimizes  error or maximizes a **performance metric**. This a good opportunity to fully frame our problem as ML task:
+Now that we know the kind of problem addressed by our model and what is exactly its output, we need to know how the model will learn this task. In a supervised learning problem, **labeled data** is provided to the model to perform the prediction **task**. Hence, the model needs to map the inputs features to a target variable in a way that minimizes  error or maximizes a **performance metric**. This a good opportunity to fully frame our problem as ML task:
 
 - **Task**: Predict real estate values.
 - **Labeled Data**: Listing of apartments/houses/properties and their values.
