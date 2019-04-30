@@ -61,5 +61,5 @@ Next post, we will discuss how to get relevant data to out problem.
 
 ## References
 
-[Google's ML Crash Course](https://developers.google.com/machine-learning/problem-framing/cases)
-[How to Define Your Machine Learning Problem/](https://machinelearningmastery.com/how-to-define-your-machine-learning-problem/)
+- [Google's ML Crash Course](https://developers.google.com/machine-learning/problem-framing/cases)
+- [How to Define Your Machine Learning Problem/](https://machinelearningmastery.com/how-to-define-your-machine-learning-problem/)
