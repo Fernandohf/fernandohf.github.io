@@ -45,7 +45,7 @@ Now that we know the kind of problem addressed by our model and what is exactly 
 
 - **Task**: Predict real estate values.
 - **Labeled Data**: Listing of apartments/houses/properties and their values.
-- **Metric**: The Root Mean Squared Error (RMSE) between target label and predicted values.
+- **Performance Metric**: The Root Mean Squared Error (RMSE) between real target label and predicted values.
 
 ## Assumptions
 
