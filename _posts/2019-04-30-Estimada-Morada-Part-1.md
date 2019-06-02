@@ -14,7 +14,7 @@ List of posts:
 
 ## Elaborating a Question
 
-![_config.yml]({{ site.baseurl }}/images/01.part1/question.png "Source: <https://undraw.co>")
+![_config.yml]({{ site.baseurl }}/images/01/question.png "Source: <https://undraw.co>")
 
 The creation of a model involves the completion of multiple interconnected tasks. However, a model does not need to be created, if there is no problem to be solved. Generally, it is a good idea to try to formulate the problem as a simple question. In our case, the question is:
 
@@ -24,7 +24,7 @@ Take your time to formulate this question, it is really important. This question
 
 ## Understanding the Question
 
-![_config.yml]({{ site.baseurl }}/images/01.part1/idea.png "Source: <https://undraw.co>")
+![_config.yml]({{ site.baseurl }}/images/01/idea.png "Source: <https://undraw.co>")
 
 Now that we have the question that our model will answer, we need to know how this will be done. For that, let's see where our problem fits in the possible cases of Machine Learning problems. First, let's remember some of the common problems that can be solved using ML.
 
@@ -39,7 +39,7 @@ It is clear that we have a **Regression Problem**. It is a kind of **Supervised 
 
 ## Answering the Question
 
-![_config.yml]({{ site.baseurl }}/images/01.part1/task.png "Source: <https://undraw.co>")
+![_config.yml]({{ site.baseurl }}/images/01/task.png "Source: <https://undraw.co>")
 
 Now that we know the kind of problem addressed by our model and what is exactly its output, we need to know how the model will learn this task. In a supervised learning problem, **labeled data** is provided to the model to perform the prediction **task**. Hence, the model needs to map the inputs features to a target variable in a way that minimizes  or maximizes a **performance metric**. This a good opportunity to fully frame our problem as ML task:
 
@@ -49,7 +49,7 @@ Now that we know the kind of problem addressed by our model and what is exactly 
 
 ## Assumptions
 
-![_config.yml]({{ site.baseurl }}/images/01.part1/assumptions.png "Source: <https://undraw.co>")
+![_config.yml]({{ site.baseurl }}/images/01/assumptions.png "Source: <https://undraw.co>")
 
 With all the preparations ready, you should write down all the assumptions made along the process of solving the problem. For instance, so far this is the indirect assumption made:
 

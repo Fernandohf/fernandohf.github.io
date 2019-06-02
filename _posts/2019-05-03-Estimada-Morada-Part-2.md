@@ -14,52 +14,26 @@ List of posts:
 
 ## Expected Data Format - Tabular
 
-![_config.yml]({{ site.baseurl }}/images/01.part1/question.png "Source: <https://undraw.co>")
+![_config.yml]({{ site.baseurl }}/images/02/features.png "Source: <https://undraw.co>")
 
-The creation of a model involves the completion of multiple interconnected tasks. However, a model does not need to be created, if there is no problem to be solved. Generally, it is a good idea to try to formulate the problem as a simple question. In our case, the question is:
+In the last post, we formulated and defined our problem: **Predict Real Estate Values**. Now that our problem is clearly defined, we can start working on how to model it. It is reasonable to think that the price of houses/apartments are dependent of the their features such as number of room, area, locations, etc. Or course, there are some intrinsic uncertainties related to this problem. E.g. some characteristics are not easily definable: local market, close constructions, flooding area, haunted(😨), etc. As said in the previous post, remember to always maintain clear all your assumption along the process.
 
->**How much does a real estate cost?**
+> House prices are dependent of the house features such as number of room, area, locations, etc.
 
-Take your time to formulate this question, it is really important. This question influences all the next decisions and steps needed to reach our final goal. Try to keep it as simple and direct as possible. At the same time, avoid adding irrelevant description to the final model's output.
+Therefore, we will use the properties described in the house listing as the inputs to the house price.
 
 ## Data Sources
 
-![_config.yml]({{ site.baseurl }}/images/01.part1/idea.png "Source: <https://undraw.co>")
+![_config.yml]({{ site.baseurl }}/images/02/search.png "Source: <https://undraw.co>")
 
-Now that we have the question that our model will answer, we need to know how this will be done. For that, let's see where our problem fits in the possible cases of Machine Learning problems. First let's remember some of the common problems that can be solved using ML.
+There is an important question that need to be answered: Where and how do we get our data? The World Wide Web is a great source for the database that you are looking for. Multiple sites ([Kaggle](https://kaggle.com/), [UCI](https://archive.ics.uci.edu/ml/index.php, [Google Datasets](https://ai.google/tools/datasets/), ...) provide well-known datasets for famous problems, and, multiple times, they are a great source to solve your problem. In general, these databases are in a tabular format and fairly clean. However, often these datasets are not specific enough for our problem. For example, it is easy to find a dataset with house/apartments description and pricing, but from a completely different region of the world. Therefore, we should look for data that reflects our problem.
 
-Type of Problem| Description| Question Example
-:---|:---|:---|
-Classification| Identify to which category an observation belongs| Is this a picture of a cat or dog?
-Regression| Estimate a numeric value from a given observation| What is the price of a taxi fare?
-Clustering| Group similar observations| Who has similar voting behavior behavior?
-Reinforcement Learning| Learn best action based on interaction| How to beat this Mario phase?
+### Web Scraping with BeautifulSoup
 
-It is clear that we have a **Regression Problem**. It is a kind of **Supervised Learning** that uses previous data to predict an numerical output. In our case, the output is the value of the house/property or apartment.
+Web scraping is a technique to extract data publicly available on the web. Multiple websites have listings of real estate descriptions and pricing, making them a perfect source of our dataset. This process is considerably more time consuming and demanding, but it results in a database that faithfully describes our problem. We will be using [BeautifulSoup](https://www.crummy.com/software/BeautifulSoup/bs4/doc/) to extract our data from static listing websites.
 
-## Answering the Question
+# Copy Beautiful CODE
 
-![_config.yml]({{ site.baseurl }}/images/01.part1/task.png "Source: <https://undraw.co>")
-
-Now that we know the kind of problem addressed by our model and what is exactly its output, we need to know how the model will learn this task. In a supervised learning problem, **labeled data** is provided to the model to perform the prediction **task**. Hence, the model needs to map the inputs features to a target variable in a way that minimizes  error or maximizes a **performance metric**. This a good opportunity to fully frame our problem as ML task:
-
-- **Task**: Predict real estate values.
-- **Labeled Data**: Listing of apartments/houses/properties and their values.
-- **Performance Metric**: The Root Mean Squared Error (RMSE) between real target label and predicted values.
-
-## Assumptions
-
-![_config.yml]({{ site.baseurl }}/images/01.part1/assumptions.png "Source: <https://undraw.co>")
-
-With all the preparations ready, you should write down all the assumptions made along the process of solving the problem. For instance, so face this is the indirect assumptions made:
-
-- All Features present in the listing are sufficient to estimate the pricing of a real estate.
-
-Right now, this seems like a reasonable assumptions. Nonetheless, later we could see that it is unrealistic or completely wrong. Thus, it is a good practice to list all the indirect and direct assumption made throughout the model creation process.
-
-Next post, we will discuss how to get relevant data to out problem.
 
 ## References
 
-- [Google's ML Crash Course](https://developers.google.com/machine-learning/problem-framing/cases)
-- [How to Define Your Machine Learning Problem/](https://machinelearningmastery.com/how-to-define-your-machine-learning-problem/)
